@@ -1,4 +1,4 @@
-/*  PATTERN3 - HALF PYRAMID
+/*  PATTERN3 - INVERTED HALF PYRAMID
             * * * * *
             * * * *
             * * *
