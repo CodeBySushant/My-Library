@@ -18,7 +18,7 @@ int main(){
     // Take input array size
     cout<<"Enter the size of the array: ";
     cin>>n;
-    // Declaring array size
+    // Declaring array size as n
     int arr[n];
     // Call function to take array input
     takeArray(n, arr);
