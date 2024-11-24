@@ -16,7 +16,7 @@ int main(){
     int n;
     cout<<"Enter the size of array: ";
     cin>>n;
-    int arr[n];
+    int* arr = new int [n];
     takeArray(n, arr);
     cout<<endl;
     int temp;
@@ -36,5 +36,6 @@ int main(){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
+    delete[] arr;
     return 0;
 }
