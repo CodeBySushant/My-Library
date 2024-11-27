@@ -19,7 +19,7 @@ int main(){
     cout<<"Enter the size of the array: ";
     cin>>n;
     // Declaring array size as n
-    int* arr = new int [n];
+    int* arr = new int [n];  
     // Call function to take array input
     takeArray(n, arr);
     return 0;
