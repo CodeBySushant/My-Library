@@ -34,7 +34,7 @@ int main(){
     r1.displayData();
     r1.areaPeri();
 
-// For this i dont need to enter value as i have already give value in parentherized
+// For this i dont need to enter value as i have already give value in brackets
     r2.setData(20, 36); //Set data of length and breadth
     r2.displayData();   //Display given data
     r2.areaPeri();  //Calls member function doing this operation
