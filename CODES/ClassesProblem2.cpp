@@ -23,14 +23,17 @@ int main(){
     Circle c2;
     Circle c3;
 
+    cout<<"For Circle 1: ";
     c1.getRadius();
     c1.AreaofCircle();
     c1.PerimeterofCircle();
-
+    cout<<endl;
+    cout<<"For Circle 2: ";
     c2.getRadius();
     c2.AreaofCircle();
     c2.PerimeterofCircle();
-
+    cout<<endl;
+    cout<<"For Circle 3: ";
     c3.getRadius();
     c3.AreaofCircle();
     c3.PerimeterofCircle();
