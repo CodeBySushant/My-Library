@@ -1,1 +1,0 @@
-int a1 = sizeof(a)/sizeof(a[0]);
