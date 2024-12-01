@@ -2,14 +2,13 @@
 
 #include<iostream>
 using namespace std;
-void Fibonacci(){
-    int n;
-    int fibo;
-    cout << "Enter the number of terms: ";
-    cin >> n;
-    fibo(n-1)+fibo(n-2);
-    cout<<fibo;
+int Fibonacci(int n){
+    if(n==1 || n == 2) return 1;
+    return Fibonacci(n-1)+Fibonacci(n-2);
 };
 int main(){
-    Fibonacci();
+    int n;
+    cout << "Enter the number of terms: ";
+    cin >> n;
+    cout<<Fibonacci(n);
 }
