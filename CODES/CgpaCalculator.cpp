@@ -4,8 +4,9 @@ using namespace std;
 class sgpa{
     public:
     float cgpa;
-    void takeinputsgpa(){
-        cout<<""
+    void takeinputsgpa(int n){
+        cout<<"Enter your sgpa: ";
+        cin>>n;
     }
     void calculateCgpa(int sgpa){
         cgpa = (s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8)/8;
