@@ -22,6 +22,8 @@ int main(){
         case '/':
         cout<<"Division of a & b is: "<<a/b;
         break;
+        default:
+        cout<<"Invalid operation";
     }
     return 0;
 }
