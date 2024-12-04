@@ -1,24 +1,3 @@
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int n;
-//     cout<<"Enter a number: ";
-//     cin>>n;
-//     if(n%1==0){
-//         for(int i=2; i<n-1; i++){
-//             if(n%i==0){
-//                 cout<<"The number is not a prime number.";
-//                 break;
-//             }
-//             else{
-//                 cout<<"The number is a prime number.";
-//                 break;
-//             }
-//         }
-//     }
-//     return 0;
-// }
-
 #include<iostream>
 using namespace std;
 int main(){
