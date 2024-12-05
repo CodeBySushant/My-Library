@@ -9,22 +9,20 @@ int main(){
         cout<<"Not a prime number!";
     }
     else if(n==2){
-        cout<<"Is a Prime number!";
+        cout<<"Prime number!";
     }
     else{
         bool isPrime = true;
         for(int i=2; i<n; i++){
             if(n%i==0){
+                cout<<"Not a prime number!";
                 isPrime = false;
                 break;
             }
         }
         if(isPrime){
-        cout<<"Is a Prime Number.";
-    }
-    else{
-        cout<<"Not a Prime Number.";
-    }
+                cout<<"Prime number!";
+            }
     }
     return 0;
 }
