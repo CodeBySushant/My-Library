@@ -1,3 +1,4 @@
+// GCD means Greatest Common Divisor
 #include<iostream>
 using namespace std;
 
