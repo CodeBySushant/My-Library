@@ -33,11 +33,26 @@ class BankAccount{
         cout<<"Account Holder Name: "<<AccountHolderName<<endl;
         cout<<"Account Balance: "<<Balance<<endl;
     }
+    void Exit(){
+        cout<<"Exiting Program!";
+    }
 };
 
 int main(){
-    BankAccount obj1;
-    obj1.InputDetails();
-    obj1.Deposit();
-    obj1.ShowDetails();
+    int n;
+    cout<<"Enter what you want to perform: "<<endl;
+    cout<<"1. Enter New Customer Account Details"<<endl;
+    cout<<"2. Deposit Amount"<<endl;
+    cout<<"3. WithDraw Amount"<<endl;
+    cout<<"4. Show Existing Customer Details"<<endl;
+    cout<<"5. Exit"<<endl;
+    cin>>n;
+    BankAccount Customer1;
+
+    
+    Customer1.InputDetails();
+    Customer1.Deposit();
+    Customer1.Withdraw();
+    Customer1.ShowDetails();
+    Customer1.Exit();
 }
