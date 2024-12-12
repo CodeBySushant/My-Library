@@ -1,5 +1,14 @@
 #include<iostream>
 using namespace std;
+class BankAccount{
+    public:
+    int AccountNumber;
+    string AccountHolderName;
+    float Balance;
+    
+
+};
 int main(){
-    return 0;
+    BankAccount obj1;
+    obj1.AccountNumber;
 }
