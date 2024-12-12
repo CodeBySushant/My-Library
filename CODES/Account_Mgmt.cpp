@@ -3,7 +3,7 @@
 using namespace std;
 class BankAccount{
     private:
-    int AccountNumber;
+    string AccountNumber;
     string AccountHolderName;
     float Balance;
 
@@ -11,6 +11,10 @@ class BankAccount{
     void InputDetails(){
         cout<<"Enter Account Number: ";
         cin>>AccountNumber;
+        while (AccountNumber.length() != 8) {
+            cout << "Account Number must be exactly 16 digits. Please try again: ";
+            cin >> AccountNumber;
+        }
         cin.ignore();
         cout<<"Enter Account Holder Name: ";
         getline(cin, AccountHolderName);
@@ -40,7 +44,7 @@ class BankAccount{
     void ShowDetails(){
         cout<<"Account Number: "<<AccountNumber<<endl;
         cout<<"Account Holder Name: "<<AccountHolderName<<endl;
-        cout<<"Account Balance: "<<Balance<<endl;
+        cout<<"Account Balance: "<<Balance<<" Rs"<<endl;
         cout<<endl;
     }
     
