@@ -22,6 +22,12 @@ class BankAccount{
         cin>>amount;
         Balance = Balance + amount;
     }
+    void Withdraw(){
+        float amount;
+        cout<<"Enter amount to withdraw: ";
+        cin>>amount;
+        Balance = Balance - amount;
+    }
     void ShowDetails(){
         cout<<"Account Number: "<<AccountNumber<<endl;
         cout<<"Account Holder Name: "<<AccountHolderName<<endl;
