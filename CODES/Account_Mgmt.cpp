@@ -21,30 +21,36 @@ class BankAccount{
         cout<<"Enter amount to deposit: ";
         cin>>amount;
         Balance = Balance + amount;
+        cout<<endl;
     }
     void Withdraw(){
         float amount;
         cout<<"Enter amount to withdraw: ";
         cin>>amount;
         Balance = Balance - amount;
+        cout<<endl;
     }
     void ShowDetails(){
         cout<<"Account Number: "<<AccountNumber<<endl;
         cout<<"Account Holder Name: "<<AccountHolderName<<endl;
         cout<<"Account Balance: "<<Balance<<endl;
+        cout<<endl;
     }
     
 };
 
 int main(){
     int n;
+    for(int i=0; i<=n; i++){
     cout<<"Enter what you want to perform: "<<endl;
     cout<<"1. Enter New Customer Account Details"<<endl;
     cout<<"2. Deposit Amount"<<endl;
     cout<<"3. WithDraw Amount"<<endl;
     cout<<"4. Show Existing Customer Details"<<endl;
     cout<<"5. Exit"<<endl;
+    cout<<endl;
     cin>>n;
+    
     BankAccount Customer1;
 
     if(n>=1 && n<=5){
@@ -68,4 +74,5 @@ int main(){
         cout<<"Invalid choice"<<endl;
     }
     
+    }
 }
