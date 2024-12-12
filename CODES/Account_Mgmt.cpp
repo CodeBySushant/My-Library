@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 class BankAccount{
     private:
@@ -10,8 +11,9 @@ class BankAccount{
     void InputDetails(){
         cout<<"Enter Account Number: ";
         cin>>AccountNumber;
+        cin.ignore();
         cout<<"Enter Account Holder Name: ";
-        cin>>AccountHolderName;
+        getline(cin, AccountHolderName);
         cout<<"Enter Balance: ";
         cin>>Balance;
         cout<<endl;
@@ -27,7 +29,12 @@ class BankAccount{
         float amount;
         cout<<"Enter amount to withdraw: ";
         cin>>amount;
+        if(amount<Balance){
         Balance = Balance - amount;
+        }
+        else{
+            cout<<"Insufficient Balance"<<endl;
+        }
         cout<<endl;
     }
     void ShowDetails(){
@@ -41,7 +48,8 @@ class BankAccount{
 
 int main(){
     int n;
-    for(int i=0; i<=n; i++){
+    BankAccount Customer1;
+    while(true){
     cout<<"Enter what you want to perform: "<<endl;
     cout<<"1. Enter New Customer Account Details"<<endl;
     cout<<"2. Deposit Amount"<<endl;
@@ -51,7 +59,6 @@ int main(){
     cout<<endl;
     cin>>n;
     
-    BankAccount Customer1;
 
     if(n>=1 && n<=5){
         if(n==1){
@@ -68,6 +75,7 @@ int main(){
         }
         else{
             cout<<"Exiting Program!";
+            break;
         }
     }
     else{
