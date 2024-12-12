@@ -33,9 +33,7 @@ class BankAccount{
         cout<<"Account Holder Name: "<<AccountHolderName<<endl;
         cout<<"Account Balance: "<<Balance<<endl;
     }
-    void Exit(){
-        cout<<"Exiting Program!";
-    }
+    
 };
 
 int main(){
@@ -49,10 +47,25 @@ int main(){
     cin>>n;
     BankAccount Customer1;
 
+    if(n>=1 && n<=5){
+        if(n==1){
+            Customer1.InputDetails();
+        }
+        else if(n==2){
+            Customer1.Deposit();
+        }
+        else if(n==3){
+            Customer1.Withdraw();
+        }
+        else if(n==4){
+            Customer1.ShowDetails();
+        }
+        else{
+            cout<<"Exiting Program!";
+        }
+    }
+    else{
+        cout<<"Invalid choice"<<endl;
+    }
     
-    Customer1.InputDetails();
-    Customer1.Deposit();
-    Customer1.Withdraw();
-    Customer1.ShowDetails();
-    Customer1.Exit();
 }
