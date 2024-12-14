@@ -1,4 +1,5 @@
-// Take Gifts From the Richest Pile
+// Take Gifts From the Richest Pile 
+// Not correct approach need to solve it using maxHeap for better efficiency
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -35,5 +36,7 @@ int main(){
     }
     cout<<endl;
     cout<<sum;
+
+    delete[] gifts;
 return 0;
 }
