@@ -16,7 +16,9 @@ class LibrarySystem{
         cin>>name;
     }
 
-    
+    void GetInfo{
+        
+    }
 
         int main(){
         LibrarySystem student;
