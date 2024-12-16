@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class LibrarySystem{
+class Library{
     private: 
     int id;
     string name;
@@ -21,7 +21,7 @@ class LibrarySystem{
     }
 
         int main(){
-        LibrarySystem student;
+        Library student;
 
         student.SetInfo();
         }
