@@ -6,4 +6,5 @@ int main(){
     cin>>num;
     cout<<"Enter power required of the given number: ";
     cin>>power;
+    
 }
