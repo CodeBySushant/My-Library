@@ -1,9 +1,9 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 int main(){
-    int num;
+    int num, power;
     cout<<"Enter any number: ";
     cin>>num;
-    cout<<pow(num);
+    cout<<"Enter power required of the given number: ";
+    cin>>power;
 }
