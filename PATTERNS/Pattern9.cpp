@@ -1,5 +1,5 @@
 // Rhombus Pattern
-
+//Not Correct
 #include <iostream>
 using namespace std;
 
