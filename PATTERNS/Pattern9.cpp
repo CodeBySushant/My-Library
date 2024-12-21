@@ -1,4 +1,4 @@
-// Rhombus Pattern
+// Solid Right Half Diamond Pattern
 #include <iostream>
 using namespace std;
 
