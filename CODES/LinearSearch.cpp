@@ -22,8 +22,12 @@ int main(){
     }
 
     int key;
-    cout<<"Enter element to check if present in array or not: ";
+    cout<<"Enter key element to check if present in array or not: ";
     cin>>key;
 
+    cout<<"The index of input key element is: ";
     cout<<linearSearch(num, arr, key);
+
+    delete[] arr;
+    return 0;
 }
