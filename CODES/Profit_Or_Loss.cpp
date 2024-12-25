@@ -1,18 +1,21 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int CP, SP, Profit, Discount, MP;
+    float CP, SP, Profit, Loss;
     cout<<"Enter Cost Price of Product: ";
     cin>>CP;
     cout<<"Enter Selling Price of Product: ";
     cin>>SP;
+    Profit = SP - CP;
+    Loss = CP - SP;
     if(CP>SP){
-        cout<<"Loss of "<<CP-SP<<" Rupees";
+        cout<<"Loss of "<<Loss<<" Rupees";
     }
     else if(SP>CP){
-        cout<<"Profit of "<<SP-CP<<" Rupees";
+        cout<<"Profit of "<<Profit<<" Rupees";
     }
     else{
         cout<<"No Profit No Loss";
     }
+    return 0;
 }
