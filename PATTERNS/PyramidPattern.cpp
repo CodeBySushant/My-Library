@@ -2,12 +2,18 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter number of Rows: ";
+    cout<<"Enter pyramid height: ";
     cin>>n;
-    for(int i=n-1; i>=0; i--){
-        for(int j=0; j<i; j++){
+    for(int i=1; i<=n; i++){
+        // 1st Loop for printing spaces
+        for(int j=1; j<=n-i; j++){
             cout<<" ";
+        }
+        // 2nd Loop for printing stars
+        for(int k=1; k<=i; k++){
+            cout<<"* ";
+        }
+        cout<<endl;
     }
-    cout<<endl;
-}
+    return 0;
 }
