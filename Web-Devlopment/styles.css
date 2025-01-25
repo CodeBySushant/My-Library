@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: gray;
+}
