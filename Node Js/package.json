@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "prompt-sync": "^4.2.0"
   }
 }
