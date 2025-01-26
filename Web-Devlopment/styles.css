@@ -17,4 +17,17 @@ nav a{
 
 nav a:hover{
     background: gray;
+    /* transform: scale(1.2); */
 }
+
+header{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* main{
+    text-decoration: none;
+    color: black;
+    margin-top: 100px;
+    margin-left: 20px;
+} */
