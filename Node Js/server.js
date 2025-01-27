@@ -10,7 +10,15 @@ app.get('/greet', (req, res) => {
     res.send('Hi There How are You?');
 });
 
-
+app.get('/idli', (req, res)=>{
+    var customized_idli = {
+        name : 'rava dosa',
+        size : '10 cm radius',
+        price : 50,
+        is_chutney: false
+    }
+    res.send(customized_idli);
+})
 app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
 });
