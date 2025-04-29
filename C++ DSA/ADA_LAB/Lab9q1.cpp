@@ -14,7 +14,6 @@ int minCoinsUnlimited(int amount, vector<int> &coins){
         }
     }
     
-    // Simplified ternary operator
     if(dp[amount] == INF)
         return -1;
     else
@@ -38,7 +37,6 @@ int minCoinsLimited(int amount, vector<int> &coins, vector<int> &counts){
         }
     }
     
-    // Simplified ternary operator
     if(dp[amount] == INF)
         return -1;
     else
@@ -53,7 +51,6 @@ int main(){
     
     int resultUnlimited = minCoinsUnlimited(amount, coins);
     
-    // Simplified ternary operator
     if(resultUnlimited != -1)
         cout<<"Minimum coins needed (Unlimited Supply): "<<resultUnlimited<<endl;
     else
@@ -62,7 +59,6 @@ int main(){
     vector<int> counts = {5, 2, 2, 1, 1};
     int resultLimited = minCoinsLimited(amount, coins, counts);
     
-    // Simplified ternary operator
     if(resultLimited != -1)
         cout<<"Minimum coins needed (Limited Supply): "<<resultLimited<<endl;
     else
