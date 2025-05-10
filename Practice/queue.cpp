@@ -25,8 +25,12 @@ void dequeue(){
     if(front == -1 && rear == -1){
         cout<<"Underflow";
     }
-    else if(){
-        
+    else if(front == rear){
+        front = rear = -1;
+    }
+    else{
+        cout<<queue[front];
+        front++;
     }
 }
 
