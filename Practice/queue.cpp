@@ -47,6 +47,15 @@ void display(){
     
 }
 
+void peek(){
+    if(front == -1 && rear == -1){
+        cout<<"Underflow";
+    }
+    else{
+        cout<<queue[front];
+    }
+}
+
 
 int main(){
     enqueue(2);
