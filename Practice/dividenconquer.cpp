@@ -1,11 +1,12 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 #define MAX 5
 
 // Merge function to combine two halves
 void merge(int arr[], int left, int mid, int right) {
     int i = left, j = mid + 1, k = 0;
-    int temp[right - left + 1];
+    vector<int> temp(right - left + 1);
 
     // Merge the two halves
     while (i <= mid && j <= right) {
