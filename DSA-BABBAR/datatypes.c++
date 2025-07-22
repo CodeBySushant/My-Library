@@ -19,10 +19,10 @@ int main(){
 
     //Size of data types:
     int size1 = sizeof(a);    
-    float size2 = sizeof(b);
-    double size3 = sizeof(c);
-    char size4 = sizeof(d);
-    bool size5 = sizeof(e);
+    int size2 = sizeof(b);
+    int size3 = sizeof(c);
+    int size4 = sizeof(d);
+    int size5 = sizeof(e);
     cout<<"Size of a is: "<<size1<<endl;
     cout<<"Size of b is: "<<size2<<endl;
     cout<<"Size of c is: "<<size3<<endl;
