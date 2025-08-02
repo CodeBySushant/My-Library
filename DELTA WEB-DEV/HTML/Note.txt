@@ -5,3 +5,5 @@ Emmits : visit emmit.io
 -> Official website of documentation & cheatsheet of emmits eg: !, &hearts;, etc.
 -> Emmit is shortcut of tags where by writing just ui>li*5 we get unordered list of 5 elements.
 
+Entities : compart.com
+-> For collection of entities/html symbols
