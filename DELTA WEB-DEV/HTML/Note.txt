@@ -1,7 +1,7 @@
-MDN : developer.mozilla.org/en-US/
+MDN : visit developer.mozilla.org/en-US/
 -> Official website with proper documentation & rules of HTML, CSS and Javascript or say it is Library of HTML, CSS and Javascript.
 
-Emmits : emmit.io
+Emmits : visit emmit.io
 -> Official website of documentation & cheatsheet of emmits eg: !, &hearts;, etc.
 -> Emmit is shortcut of tags where by writing just ui>li*5 we get unordered list of 5 elements.
 
