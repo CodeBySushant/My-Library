@@ -1,11 +1,11 @@
 h1 {
-    color: orange;
+    color: #ffaa00; /*Hex code color system*/
 }
 
 p {
-    color: blue;
+    color: rgb(0, 0, 255); /*Rgb color system*/
 }
 
 button {
-    color: gold;
+    color: gold;  /*Named color system*/
 }
