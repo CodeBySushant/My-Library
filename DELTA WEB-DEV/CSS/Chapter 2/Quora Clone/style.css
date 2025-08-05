@@ -32,3 +32,33 @@ h3 {
 .follow {
     text-decoration: none;
 }
+
+/* Descendant Selector - Applies styling in elements with parent child hierarchy  */
+p a {      /*Applies only on anchor tag which are inside paragraph tag*/
+    color : purple;
+    background-color: yellow;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color:aqua;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+/*Sibling Combinator*/
+.upvote + button {
+    background-color: red;
+}
+
+/* Child Combinator */
+div > input {
+    color: yellow;
+    background-color: salmon;
+}
+
+span > button {
+    background-color: blue;
+}
