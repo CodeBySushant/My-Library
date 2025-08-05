@@ -7,3 +7,6 @@ Emmits : visit emmit.io
 
 Entities : compart.com
 -> For collection of entities/html symbols
+
+Font Styles Visualise : cssfontstack.com
+-> We can directly see types of font and select one for our site
