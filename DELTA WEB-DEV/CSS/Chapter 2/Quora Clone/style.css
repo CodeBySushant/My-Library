@@ -62,3 +62,45 @@ div > input {
 span > button {
     background-color: blue;
 }
+
+
+
+/* Let's Learn pseudo classes */
+
+/* Hover */
+#login:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#signup:hover {
+    background-color: red;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+/* Active */
+.upvote:active {
+    background-color: chartreuse;
+    transform: scale(1.08);
+}
+
+p:active {
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* Checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type */
+p:nth-of-type(1) {
+    background-color: blueviolet;
+}
