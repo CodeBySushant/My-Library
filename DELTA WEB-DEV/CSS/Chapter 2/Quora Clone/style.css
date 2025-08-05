@@ -1,0 +1,34 @@
+/* Universal Selector - Applies on everything*/
+* {
+    font-family: "Courier new";
+}
+
+/* Element Selector - Applies on all same element*/
+h1 {
+    font-size: xx-large;
+    color: #b92b27;
+}
+
+h3 {
+    color: purple;
+}
+
+/* Id Selector - Selects specific element based on there unique id */
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class selector - Used to select different types of element / same kind as well */
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+.follow {
+    text-decoration: none;
+}
