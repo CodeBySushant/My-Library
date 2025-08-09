@@ -1,0 +1,50 @@
+/* Q2 */
+* {
+    text-align: center;
+}
+
+/* Q1 */
+#mainTopic {
+    color: blue;
+}
+
+/* Q3 */
+h1, h3, h5 {
+    font-family: Georgia;
+}
+
+/* Q4 */
+.content {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Q5 */
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+/* Q6 */
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* Q7 */
+.content:nth-of-type(2n+1){
+    color: yellow;
+}
+
+/* Q8 */
+h1::first-letter {
+    color: red;
+}
+
+/* Q9 */
+#yes:checked + label{
+    color: darkgreen;
+}
+
+/* Q10 */
+/* -> mainContent > div .main > .main > h1 */
