@@ -1,0 +1,14 @@
+div {
+    height : 200px;
+    width : 500px;
+    background-color: pink;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+}
+
+h1 {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: purple;
+}
