@@ -10,3 +10,6 @@ Entities : compart.com
 
 Font Styles Visualise : cssfontstack.com
 -> We can directly see types of font and select one for our site
+
+Color Pallets : coolers.com
+-> For proper color selection for our site

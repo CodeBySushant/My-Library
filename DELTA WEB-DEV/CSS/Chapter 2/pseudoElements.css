@@ -1,0 +1,14 @@
+/* Let's learn about Pseudo Elements first - Used to add style in specific part */
+p::first-letter {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p::selection {
+    color: gold;
+}
+
+p::first-line {
+    background-color: aqua;
+}

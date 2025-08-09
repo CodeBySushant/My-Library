@@ -1,0 +1,11 @@
+div {
+    background-color: rgb(246, 255, 0);  /*This style will be applied to all its child*/
+}
+
+form {
+    background-color: red; /*If form mai koi background color nhi hota toh yeh apne parent ka properties inherit krleta*/
+}
+
+input {  /* input don't inherit its parent's properties so to give parent properties to it we need to give value inherit in properties*/
+    background-color: inherit;
+}
