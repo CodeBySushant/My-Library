@@ -1,0 +1,32 @@
+#grandparent{
+    border: 5px solid;
+    padding: 2px;
+    margin: 10px;
+    width: 75px;
+}
+
+#parent {
+    height: 200px;
+    width: 70px;
+    border: 2px solid;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
