@@ -1,0 +1,13 @@
+#alpha {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.5); /*Alpha in rgba format*/
+    /* background-color: #4dff00a1;  -> Using hex color system also we can set alpha value which is "a1" here*/
+}
+
+#opacity {
+    height: 200px;
+    width: 200px;
+    background-color: #ffa511;
+    opacity: 0.5; /*It applies on everything button, color, heading, all>
+}
