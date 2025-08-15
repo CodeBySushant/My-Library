@@ -1,0 +1,33 @@
+#root {
+    font-family: Poppins;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#male:hover {
+    background-color: rgb(210, 220, 220);
+}
+
+#female:hover {
+    background-color: rgb(210, 220, 220);
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
