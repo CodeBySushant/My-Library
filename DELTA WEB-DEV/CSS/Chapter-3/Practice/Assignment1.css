@@ -1,0 +1,31 @@
+/* Question 1 */
+#first{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: dotted 5px black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+/* Question 2 */
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 25px
+}
+
+/* Question 3 */
+#list {
+    display: flex;
+}
+li{
+    margin-left: 20px;
+    padding: 5px;
+}
