@@ -1,0 +1,26 @@
+#first {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: 2s; /* duration for transition (fade-in/fade-out effect) */
+}
+
+#first:hover {
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+
+#second {
+    background-color: #1ef0fba1;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    transition-duration: 2s;
+    transition-delay: 2s;
+}
+
+#second:hover {
+    background-color: rgba(246, 255, 0, 0.7);
+    height: 100px;
+    width: 100px;
+}
