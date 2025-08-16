@@ -35,3 +35,9 @@ div {
     top: 100px;
     left: 100px;
 }
+
+#sticky {
+    background-color: rgb(0, 0, 255);
+    position: sticky;
+    right: 0;
+}
