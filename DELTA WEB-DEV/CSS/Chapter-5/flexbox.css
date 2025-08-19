@@ -1,22 +1,94 @@
-#container {
+h1 {
+    text-align: center;
+}
+
+#container1 {
     height: 300px;
     width: 80%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
-    display: flex; /*row*/
+    display: flex; /* default mai row hi rehta h flex direction */
     /* If direction dena h column m arrange krne k liye*/
-    flex-direction: column;
+    flex-direction: row;
 }
-
-h1 {
-    text-align: center;
-}
-
-#container div {
+#container1 div {
     height: 100px;
     width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
 }
+
+#container2 {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: column;
+}
+#container2 div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container3 {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: row-reverse;
+}
+#container3 div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container4 {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: row;
+    /* Justify content for space management */
+    justify-content: space-between;
+}
+
+#container4 div {
+    height: 20px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container5 {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+}
+#container5 div {
+    height: 20px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
