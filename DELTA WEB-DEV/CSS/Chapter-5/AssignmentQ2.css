@@ -1,0 +1,19 @@
+#navbar {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid rgb(3, 185, 118);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+
+.button {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin: 10px;
+}

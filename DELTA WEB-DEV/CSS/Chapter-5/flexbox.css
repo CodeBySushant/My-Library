@@ -92,3 +92,22 @@ h1 {
     font-size: 1.5em;
 }
 
+#container6 {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;  /* Now it will wrap according to screen(given space) */
+}
+#container6 div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
