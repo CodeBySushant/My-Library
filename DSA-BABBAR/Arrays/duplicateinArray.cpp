@@ -1,25 +1,29 @@
-// Approach 2
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
-    cout<<"Enter size of array: ";
-    cin>>n;
+    int num;
+    cout << "Enter size of array: ";
+    cin >> num;
     int arr[100];
-    cout<<"Enter elements of array: ";
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
+
+    // Input array elements
+    cout << "Enter elements of array: ";
+    for(int i=0; i<num; i++){
+        cin >> arr[i];
     }
 
-    int rep = 0;
-    for(int i=0; i<n; i++){
-        rep = rep ^ arr[i];
-    }
-    
-    for(int i=0; i<n; i++){
-        rep = rep ^ arr[i];
+    int rem1 = 0, rem2 = 0;
+
+    // XOR of all array elements
+    for(int i=0; i<num; i++){
+        rem1 ^= arr[i];
     }
 
-    cout<<"Duplicate element is :"<<rep;
-    
+    // XOR of numbers from 1 to n-1
+    for(int i=1; i<num; i++){
+        rem2 ^= i;
+    }
+
+    int duplicate = rem1 ^ rem2;
+    cout << "Duplicate element is: " << duplicate;
 }
