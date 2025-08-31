@@ -1,0 +1,101 @@
+==============================
+📂 File & Directory Navigation
+==============================
+pwd                  - Print working directory
+ls                   - List files and directories
+  ls -l              - Long listing with permissions, owner, size, date
+  ls -a              - Show hidden files
+cd [dir]             - Change directory
+  cd ..              - Move up one directory
+  cd ~               - Go to home directory
+
+==============================
+📂 File & Directory Management
+==============================
+touch file.txt       - Create an empty file
+cat file.txt         - View file contents
+less file.txt        - Scroll through file (q = quit)
+head file.txt        - Show first 10 lines
+tail file.txt        - Show last 10 lines
+  tail -f file.txt   - Live update of file
+cp file1 file2       - Copy file
+mv file1 file2       - Move/rename file
+rm file.txt          - Remove file
+mkdir newdir         - Make a new directory
+rmdir dir            - Remove empty directory
+rm -r dir            - Remove directory and contents
+
+==============================
+🖥️  System Info & Management
+==============================
+whoami               - Show current logged-in user
+uname -a             - System info
+date                 - Show current date/time
+uptime               - Show how long system has been running
+df -h                - Show disk usage
+du -sh [dir]         - Show size of a directory
+top                  - Show running processes
+ps aux               - List processes
+kill [PID]           - Kill a process
+clear                - Clear terminal screen
+
+==============================
+🔑 Permissions
+==============================
+chmod 755 file       - Change file permissions
+chown user:group file- Change file ownership
+sudo [command]       - Run command with superuser privileges
+
+==============================
+🔎 Searching & Finding
+==============================
+find /path -name file.txt    - Search for a file
+grep "word" file.txt         - Search for text in a file
+  grep -r "word" dir/        - Search recursively in a folder
+
+==============================
+🌐 Networking
+==============================
+ping example.com     - Check connectivity
+curl example.com     - Fetch web content
+wget URL             - Download file from web
+ifconfig / ip a      - Show network interfaces
+netstat -tulnp       - Show active connections
+
+==============================
+📦 Package Management
+==============================
+Debian/Ubuntu:
+  apt update         - Refresh package lists
+  apt upgrade        - Upgrade installed packages
+  apt install pkg    - Install a package
+
+RedHat/CentOS:
+  yum install pkg    - Install a package
+
+==============================
+🗜️ Archiving & Compression
+==============================
+tar -cvf archive.tar dir/   - Create tar archive
+tar -xvf archive.tar        - Extract tar archive
+gzip file.txt               - Compress file
+gunzip file.txt.gz          - Decompress file
+zip archive.zip file        - Create zip
+unzip archive.zip           - Extract zip
+
+==============================
+⚡ Miscellaneous
+==============================
+echo "hello"         - Print text
+history              - Show command history
+alias ll='ls -la'    - Create shortcut for commands
+man command          - Show manual page for command
+
+==============================
+💡 Tips
+==============================
+Use && to chain commands (run next if first succeeds)
+Use | to pipe output to another command
+
+Example:
+ls -l | grep "txt"   - List only .txt files
