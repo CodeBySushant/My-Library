@@ -1,0 +1,38 @@
+Common Git & GitHub Commands:
+
+git init - Initializes a new Git repository in the current directory.
+git clone <url> - Clones a repository from GitHub or another remote source.
+git status - Displays the state of the working directory and staging area.
+git add <file> - Stages a file for commit.
+git add . - Stages all changed files for commit.
+git commit -m "message" - Commits staged changes with a descriptive message.
+git commit -am "message" - Stages and commits tracked files with a message.
+git log - Shows commit history.
+git diff - Shows changes not yet staged.
+git diff --staged - Shows changes between staging area and last commit.
+git branch - Lists branches in the repository.
+git branch <name> - Creates a new branch.
+git checkout <branch> - Switches to another branch.
+git checkout -b <branch> - Creates and switches to a new branch.
+git merge <branch> - Merges the specified branch into the current branch.
+git pull - Fetches changes from a remote repository and merges them.
+git fetch - Downloads changes from a remote repository without merging.
+git push - Uploads local commits to a remote repository.
+git push origin <branch> - Pushes commits to a specific remote branch.
+git remote -v - Shows the list of remotes connected to the repository.
+git remote add origin <url> - Adds a new remote repository.
+git reset <file> - Unstages a file while preserving its changes.
+git reset --hard - Resets to the last commit, discarding all changes.
+git revert <commit> - Creates a new commit that undoes a previous commit.
+git stash - Temporarily saves uncommitted changes.
+git stash pop - Applies the latest stashed changes and removes them from stash.
+git tag <name> - Creates a tag for a commit.
+git show <commit> - Shows detailed information about a commit.
+git blame <file> - Shows who made changes to each line of a file.
+git config --global user.name "name" - Sets the global username for commits.
+git config --global user.email "email" - Sets the global email for commits.
+git rm <file> - Removes a file from the repository and staging area.
+git mv <old> <new> - Renames or moves a file.
+git cherry-pick <commit> - Applies a specific commit from another branch.
+git rebase <branch> - Reapplies commits on top of another base branch.
+git reflog - Shows a log of all references, including resets and checkouts.
