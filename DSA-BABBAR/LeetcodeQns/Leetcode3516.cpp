@@ -1,42 +1,63 @@
 // Find closest Person
 #include<iostream>
+#include<algorithm>
+#include<math.h>
 using namespace std;
 
+// Approach 1
+/* 
 int findClosest(int x, int y, int z) {
-        int dist1 = 0;
-        int dist2 = 0;
-        if(x<z){
-            for(int i = x; i < z; i++){
-                dist1++;
-            }
-        }
-        else if(x>z){
-            for(int i=x; i>z; i--){
-                dist1++;
-            }
-        }
-
-        if(y<z){
-            for(int i = y; i < z; i++){
-                dist2++;
-            }
-        }
-        else if(y>z){
-            for(int i=y; i>z; i--){
-                dist2++;
-            }
-        }
-
-        if(dist1<dist2){
-            return 1;
-        }
-        else if(dist1>dist2){
-            return 2;
-        }
-        else {
-            return 0;
+    int dist1 = 0;
+    int dist2 = 0;
+    if(x<z){
+        for(int i = x; i < z; i++){
+            dist1++;
         }
     }
+    else if(x>z){
+        for(int i=x; i>z; i--){
+            dist1++;
+        }
+    }
+
+    if(y<z){
+        for(int i = y; i < z; i++){
+            dist2++;
+        }
+    }
+    else if(y>z){
+        for(int i=y; i>z; i--){
+            dist2++;
+        }
+    }
+
+    if(dist1<dist2){
+        return 1;
+    }
+    else if(dist1>dist2){
+        return 2;
+    }
+    else {
+        return 0;
+    }
+}
+*/
+
+// Approach 2
+int findClosest(int x, int y, int z) {
+    int dist1 = abs(z - x);
+    int dist2 = abs(z - y);
+    if(dist1<dist2){
+        return 1;
+    }
+    else if(dist2<dist1){
+        return 2;
+    }
+    else{
+        return 0;
+    }
+}
+
 
 int main(){
     int x;
