@@ -1,0 +1,11 @@
+#bar{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+
+@media (width:400px) {
+    #bar{
+        background-color: aqua;
+    }
+}
