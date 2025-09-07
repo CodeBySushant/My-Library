@@ -6,6 +6,8 @@
     display: grid;
     grid-template-rows: 60px 60px 60px;
     grid-template-columns: 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .item{
@@ -14,4 +16,5 @@
     background-color: greenyellow;
     border: 2px solid black;
     text-align: center;
+    margin: 10px;
 }
