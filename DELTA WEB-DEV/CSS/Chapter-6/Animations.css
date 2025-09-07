@@ -1,0 +1,28 @@
+#myAnimation{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+
+    animation-name: boxAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes boxAnimation{
+    from {
+        font-size: 10px;
+        background-color: antiquewhite;
+        border-radius: 0px;
+    }
+    to {
+        font-size: 40px;
+        background-color: aqua;
+        border-radius: 50%;
+    }
+}
+
